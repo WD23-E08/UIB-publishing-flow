@@ -1,11 +1,11 @@
 # Publishing Workflow
 
-Let's make our work public to share it with the world.
+Let's make our work public to share it with the world. Use this power wisely and **within legal laws & regulations** (no hate, no bullying, misinformation etc.).
 
 Note: This was last updated in **July 2021**. At this time...
     
 * ...the settings for github pages are located at: tab **settings** / sub menu **pages**. 
-* ... Github's default branch name currently is `main`. This changed during time. If you want to publish older repositories, or use older versions of the command line tool you may need to rename the old `master`-branch with `git branch -m main` to before following this exercise.
+* ... Github's default branch name currently is `main`. This changed during time. If you want to publish older repositories, or use older versions of the command line tool you may need to rename the old `master`-branch with `git branch -m main` before following this guide.
 
 ## Idea
 
