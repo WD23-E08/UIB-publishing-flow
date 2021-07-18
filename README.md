@@ -42,3 +42,32 @@ There are some things you need to be aware of:
     * make a new commit with `git commit -m "added .nojekyll`
     * push it to remote with `git push origin gh-pages`
 10. Visit the public URL (like https://youraccount.github.io/repositoryname/) of and check if everything works like it should.
+
+## Bonus: Helper package gh-pages from npm
+
+There is an NPM package `gh-pages` that helps to automate steps for updating your published page, while working from main or other branches.
+
+You may want to install it globally on your system with `npm install -g gh-pages@3.0.0`, to avoid adding a package.json to very basic small projects with pure HTML/CSS.
+
+With the package you can work on your main branch or others, and control what directory you want to publish to the gh-pages branch and become public.
+
+### Call example.
+
+Let's assume you work from the root of your main branch and want to put all it's content into the gh-pages branch and publish it, type:
+
+```bash
+gh-pages -d ./
+```
+
+You can also decide to specify another sub-directory to become the root of the publication.
+
+```bash
+gh-pages -d dist
+```
+
+This is useful if you use development tools (like sass) to produce a `/dist/` directory (=distribution) for publishing from other source files.
+
+The content of the subdirectory will become the content of the **root** of the `gh-pages` branch
+
+**Important Note**:
+There is a known issue with gh-pages versions >3.0.0 with the configuration of a temporary directory when there is no package.json (so using the global installed package) ending with `The "path" argument must be of type string. Received undefined`. If you end up with this, make sure to use exactly version 3.0.0 of gh-pages on a global install. (Or have a package.json in your project with gh-pages in the development dependencies). To change from another version installed to exactly 3.0.0 type `npm install gh-pages@3.0.0 -g` on your terminal.
