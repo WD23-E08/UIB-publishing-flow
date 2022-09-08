@@ -1,4 +1,6 @@
 # Publishing Workflow
+[![Status overview badge](../../blob/badges/.github/badges/autograding-solution/badge.svg)](#-results)
+
 
 Let's make our work public to share it with the world. Use this power wisely and **within legal laws & regulations** (no hate, no bullying, misinformation etc.).
 
@@ -71,3 +73,25 @@ The content of the subdirectory will become the content of the **root** of the `
 
 **Important Note**:
 There is a known [issue](https://github.com/tschaub/gh-pages/issues/354) with gh-pages versions >3.0.0 with the configuration of a temporary directory when there is no package.json (so using the global installed package) ending with `The "path" argument must be of type string. Received undefined`. If you end up with this, make sure to use exactly version 3.0.0 of gh-pages on a global install. (Or have a package.json in your project with gh-pages in the development dependencies). To change from another version installed to exactly 3.0.0 type `npm install gh-pages@3.0.0 -g` on your terminal.
+
+[//]: # (autograding info start)
+# <img src="https://github.com/DCI-EdTech/autograding-setup/raw/main/assets/bot-large.svg" alt="" data-canonical-src="https://github.com/DCI-EdTech/autograding-setup/raw/main/assets/bot-large.svg" height="31" /> Results
+> ⌛ Give it a minute. As long as you see the orange dot ![processing](https://raw.githubusercontent.com/DCI-EdTech/autograding-setup/main/assets/processing.svg) on top, CodeBuddy is still processing. Refresh this page to see it's current status.
+>
+> This is what CodeBuddy found when running your code. It is to show you what you have achieved and to give you hints on how to complete the exercise.
+
+
+### test
+
+|                 Status                  | Check                                                                                    |
+| :-------------------------------------: | :--------------------------------------------------------------------------------------- |
+| ![Status](../../blob/badges/.github/badges/autograding-solution/status0.svg) | command |
+
+
+
+[🔬 Results Details](../../actions)
+[🐞 Tips on Debugging](https://github.com/DCI-EdTech/autograding-setup/wiki/How-to-work-with-CodeBuddy)
+[📢 Report Problem](https://docs.google.com/forms/d/e/1FAIpQLSfS8wPh6bCMTLF2wmjiE5_UhPiOEnubEwwPLN_M8zTCjx5qbg/viewform?usp=pp_url&entry.652569746=)
+
+
+[//]: # (autograding info end)
