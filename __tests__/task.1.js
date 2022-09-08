@@ -39,7 +39,7 @@ describe('test', () => {
         expect(match).toEqual(expect.arrayContaining([expect.anything()]))
         const [ owner, repo ] = match[1].split("/")
         const response = await page.goto(`https://${owner}.github.io/${repo}`)
-        
+
         expect(response.status()).toBeLessThan(400)
     });
 });
