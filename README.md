@@ -45,6 +45,11 @@ There are some things you need to be aware of:
     * push it to remote with `git push origin gh-pages`
 10. Visit the public URL (like https://youraccount.github.io/repositoryname/) of and check if everything works like it should.
 
+## CodeBuddy not seeing your deployed page?
+* Go to the actions tab
+* Click on the title of your last commit
+* Select 'Re-run action'
+
 ## Bonus: Helper package gh-pages from npm
 
 There is an NPM package `gh-pages` that helps to automate steps for updating your published page, while working from main or other branches.
