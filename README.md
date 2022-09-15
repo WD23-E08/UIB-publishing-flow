@@ -1,5 +1,5 @@
 # Publishing Workflow
-[![Status overview badge](../../blob/badges/.github/badges/autograding-solution/badge.svg)](#-results)
+[![Status overview badge](../../blob/badges/.github/badges/autograding/badge.svg)](#-results)
 
 
 Let's make our work public to share it with the world. Use this power wisely and **within legal laws & regulations** (no hate, no bullying, misinformation etc.).
@@ -86,11 +86,12 @@ There is a known [issue](https://github.com/tschaub/gh-pages/issues/354) with gh
 > This is what CodeBuddy found when running your code. It is to show you what you have achieved and to give you hints on how to complete the exercise.
 
 
-### test
+### Publishing Workflow
 
 |                 Status                  | Check                                                                                    |
 | :-------------------------------------: | :--------------------------------------------------------------------------------------- |
-| ![Status](../../blob/badges/.github/badges/autograding-solution/status0.svg) | command |
+| ![Status](../../blob/badges/.github/badges/autograding/status0.svg) | index.html file exists and contains `h1` element |
+| ![Status](../../blob/badges/.github/badges/autograding/status1.svg) | Should return status code 200 |
 
 
 
