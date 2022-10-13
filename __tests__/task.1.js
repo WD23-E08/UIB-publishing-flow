@@ -31,12 +31,15 @@ afterAll((done) => {
 });
 
 
-describe('Publishing Workflow', () => {
-    test('index.html file exists and contains `h1` element', async () => {
+describe('Page', () => {
+    test('`index.html` file exists and contains `h1` element', async () => {
         const html = await page.content();
         expect(html).toContain('<h1>');
     });
-    test("Should return status code 200", async () => {
+});
+
+describe('Publishing', () => {
+    test("This repository is published on GitHub pages", async () => {
         const pattern = new RegExp(/(?:git@|https:\/\/)github.com[:/](((?!\.git).)*)/)
         const result = await runCommand(`git config --get remote.origin.url`)
         expect(result).toBeDefined()
