@@ -1,6 +1,4 @@
 # Publishing Workflow
-[![Status overview badge](../../blob/badges/.github/badges/autograding/badge.svg)](#-results)
-
 
 Let's make our work public to share it with the world. Use this power wisely and **within legal laws & regulations** (no hate, no bullying, misinformation etc.).
 
