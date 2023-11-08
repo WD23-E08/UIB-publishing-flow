@@ -1,18 +1,20 @@
 # Publishing Workflow
 
-Let's make our work public to share it with the world. Use this power wisely and **within legal laws & regulations** (no hate, no bullying, misinformation etc.).
+Let's make our work public to share it with the world. Use this power wisely and **within legal laws & regulations**!
 
-We will use Github's service **Github pages** to publish content of repositories to a publicly accessible URL in the shape of https://accountname.github.io/repositoryname/. 
+We can use Github's service **Github Pages** to publish content of repositories to a publicly accessible URL in the shape of https://accountname.github.io/repositoryname/. 
 
-
-## Prerequisites
-Make sure that you have admin access to this repository. This is needed in order for you to enable GitHub pages.
 ## Instructions
 
-1. Enable GitHub Pages for this repository.
-    * See the settings tab of your repository, on the left navigate to the sub menu **Pages**
-    * Github will show the URL of your public page on top of the Source section. It will look like https://youraccount.github.io/repositoryname/
-2. Create an `index.html` file as a starting point and fill it with some boilerplate code (e.g. a document title and a first level heading `<h1>Hello public world</h1>`)
-3. Visit the public URL (like https://youraccount.github.io/repositoryname/) and check if everything works like it should.
+1. Create an `index.html` file in this repo as a starting point and fill it with some boilerplate code (e.g. a first level heading `<h1>Hello public world</h1>`). Add, commit and push your changes.
+
+2. Go to GitHub and enable GitHub Pages for this repository.
+    * In your remote repo on GitHub, see the settings tab. On the left navigate to the sub menu **Pages**
+    * In the **Branch** section, select your `main` branch as the source and click the `Save` button
+    * GitHub will show the URL of your public page on top of the Source section. It will look like https://youraccount.github.io/repositoryname/
 
 ![settings](settings-pages.png)
+
+3. Visit the public URL (like https://youraccount.github.io/repositoryname/) and check if everything works like it should.
+
+4. If everything is working, send Jamie the public URL on Slack, and then feel free to continue with your individual project. :smile:
